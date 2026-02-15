@@ -7,6 +7,10 @@ import Worldview from './pages/Worldview';
 function App() {
   const [activeTab, setActiveTab] = useState('home');
 
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [activeTab]);
+
   const renderContent = () => {
     switch (activeTab) {
       case 'home':

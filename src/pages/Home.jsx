@@ -38,16 +38,16 @@ const Home = ({ setActiveTab }) => {
             {/* Hero Section */}
             <section className="relative z-10 text-center space-y-10 py-12 md:py-20 text-white max-w-4xl px-6">
                 <div className="space-y-6">
-                    <h1 className="text-6xl md:text-8xl font-black tracking-tighter leading-[1.1] drop-shadow-2xl">
+                    <h1 className="text-4xl sm:text-6xl md:text-8xl font-black tracking-tighter leading-tight sm:leading-[1.1] drop-shadow-2xl break-keep">
                         마법과 기술이<br />
                         <span className="text-brand-400">융합되는 시대</span>
                     </h1>
-                    <p className="text-xl md:text-3xl text-slate-100 font-bold tracking-tight drop-shadow-md">
+                    <p className="text-lg sm:text-xl md:text-3xl text-slate-100 font-bold tracking-tight drop-shadow-md break-keep">
                         A.C. 78년, 5A 논문이 불러온 혁신과 갈등의 기록
                     </p>
                 </div>
 
-                <p className="text-base md:text-xl text-slate-200 max-w-2xl mx-auto leading-relaxed font-medium drop-shadow-md">
+                <p className="text-sm sm:text-base md:text-xl text-slate-200 max-w-2xl mx-auto leading-relaxed font-medium drop-shadow-md break-keep">
                     에테르의 파동을 수식으로 제어하는 새로운 패러다임.<br />
                     거대 기업들의 소리 없는 전쟁이 지금 시작됩니다.
                 </p>
